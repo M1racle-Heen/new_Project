@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaSite</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/css/swiper.min.css"
+      integrity="sha256-DBYdrj7BxKM3slMeqBVWX2otx7x4eqoHRJCsSDJ0Nxw="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+    <script src="https://kit.fontawesome.com/332a215f17.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <section class = "header">
+    <nav>
+      <a href="hello.html"><img src="images/icon2.png"></a>
+      <div class="nav-links" id = "navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="hello.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <div class="text-box">
+      <h1>Understand the living language of <b>nature</b></h1>
+      <p class = "text-box-catcher"> and you will say: <i>the world is wonderful</i>!</p>
+    </div>
+  </section>
+
+  <section class="services">
+    <h1 id = "hTl1">Our Services</h1>
+
+    <div class="row" id = "rTl1">
+      <div class="services-col">
+        <h3>
+          Fine art prints
+        </h3>
+        <p>All our pictures are available as fine-art prints in different sizes. </p>
+      </div>
+
+      <div class="services-col">
+        <h3>
+          Photography services
+        </h3>
+        <p>We offer any kind of photography services. From digital marketing content to personal content.</p>
+      </div>
+
+      <div class="services-col">
+        <h3>
+          Something else?
+        </h3>
+        <p >We are always open for new challenge's and new projects. Feel free to contact us.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-12 p-0">
+        <div class="swiper-container parallax-slider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="img-container one"></div>
+              <div class="container h-100">
+                <div class="row h-100">
+                  <div class="col-md-12">
+                    <div class="content">
+                      <h1 class="title">
+                        <div class="title-wrapper">
+                          Landscapes
+                        </div>
+                      </h1>
+                      <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                          <p class="description">
+                            We offer a various amount of  photography and editing workshops. We also offer photography presentations as also inspirational speeches.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-container two"></div>
+              <div class="container h-100">
+                <div class="row h-100">
+                  <div class="col-md-12">
+                    <div class="content">
+                      <h1 class="title">
+                        <div class="title-wrapper">
+                          AND
+                        </div>
+                      </h1>
+                      <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                          <p class="description">
+                            We offer any kind of photography services. From digital marketing content to personal content.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="img-container three"></div>
+              <div class="container h-100">
+                <div class="row h-100">
+                  <div class="col-md-12">
+                    <div class="content">
+                      <h1 class="title">
+                        <div class="title-wrapper">
+                          Nature
+                        </div>
+                      </h1>
+                      <div class="row">
+                        <div class="col-md-10 offset-md-1">
+                          <p class="description">
+                            All our pictures are available as fine-art prints in different sizes.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-nav-ctrl next-ctrl">
+            <i class="fas fa-chevron-right"></i>
+          </div>
+          <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl">
+            <i class="fas fa-chevron-left" id = "catch1"></i>
+          </div>
+          <div class="swiper-pagination pagination-ctrl" ></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class= "exm">
+    <h1 id = "hTl2">А couple of great examples</h1>
+
+    <div class="row" id = "rTl2">
+      <div class="exm-col">
+        <img class="img" src="images/example2.jpeg" alt="">
+        <div class="layer">
+          
+        </div>
+      </div>
+      <div class="exm-col">
+        <img class="img" src="images/example7.jpeg" alt="">
+        <div class="layer">
+          
+        </div>
+      </div>
+      <div class="exm-col">
+        <img class="img" src="images/example8.jpeg" alt="">
+        <div class="layer">
+        </div>
+      </div>
+      <div class="exm-col">
+        <img class="img" src="images/example4.jpeg" alt="">
+        <div class="layer">
+          
+        </div>
+      </div>
+      <div class="exm-col">
+        <img class="img" src="images/example6.jpeg" alt="">
+        <div class="layer">
+          
+        </div>
+      </div>
+      <div class="exm-col">
+        <img class="img" src="images/example10.jpeg" alt="">
+        <div class="layer" id = "catch3">
+        </div>
+      </div>
+    </div>
+  </section>
+<!--   
+  <section class= "sticky">
+    <blockquote>
+      "Let's be creative."
+      <span></span>
+    </blockquote>
+    <div class="images">
+      <img id = "image1" src="images/photo6.jpg" alt="">
+      <img id = "image2" src="images/photo3.jpg" alt="">
+    </div>
+    <div id="box">
+    </div>
+  </section>
+-->
+  <section class="testimonials">
+    <h1 id = "hTl3">Comments</h1>
+
+    <div class="row" id="rTl3">
+      <div class="testimonial-col">
+        <img src="images/customer2.jpg" alt="">
+        <div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos! 
+          </p>
+          <h3>John Doe</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half"></i>
+        </div>
+      </div>
+
+      <div class="testimonial-col">
+        <img src="images/customer1.jpg" alt="">
+        <div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, quasi provident.
+          </p>
+          <h3>Joe Dohn</h3>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+        </div>
+      </div>
+
+    </div>
+  </section>
+<!--
+    <section class="animation">
+        <img src="images/camera.jpg" alt="" class="paper-plane">
+    </section>
+-->
+
+    <section class="blog-content">
+      <div class="row">
+          <div class="blog-left">
+            <div class="comment-box">
+                <h3>Contact us:</h3>
+                <from class="comment-from">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter Email">
+                    <input type="text" placeholder="Enter Company">
+                    <textarea rows="5" placeholder="Your message..."></textarea>
+                    <button type="submit" class="btn btn-primary">SUBMIT</button>
+                </from>
+            </div>    
+        </div>
+        <div class="blog-right">
+          <h3>Contact Info</h3>
+          <div>
+              <span>Photography </span>
+              <span>John Doe</span>
+          </div>
+          <div>
+              <span>Location: </span>
+              <span>Kazakhstan,Almaty</span>
+          </div>
+          <div>
+              <span>Tel:</span>
+              <span>01234567</span>
+          </div>
+          <div>
+              <span>Email:</span>
+              <span>johndoe@gmail.com</span>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--   Footer   -->
+    <section class="footer">
+      <p><i>Social Media</i></p>
+      <div class="icons">
+        <i class="fab fa-facebook facebook"></i>
+        <i class="fab fa-twitter twitter"></i>
+        <i class="fab fa-instagram instagram"></i>
+        <i class="fab fa-google-plus plus"></i>
+      </div>
+      <p>Fo-number:+777777<br>Tel: 01234567<br>All rights reserved <i class="fa fa-copyright" aria-hidden="true"></i><a href="hello.html"><b> DaSite</b></a></p>
+    </section>
+
+
+  <!--  <div class = "box2">
+      <h1>
+          Welcome to my Site
+      </h1>
+     </div>
+-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TimelineMax.min.js" integrity="sha512-ExEP0u1SOp7gvzBoHWYmi6CEzdW2VHgfMeRZTetgX4HazJhC/UO1l83VGn4TLvgmIAxotN8uBcDE05a3sJglOA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js" integrity="sha512-O+atZ/gABlcFlpIoLQR04f72qHqZWKwTVsQZHqk/8VE2nrzDlnqhXbnXP7Gh/TyhpPT8tEUm5A580GG8AloHTA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/CSSPlugin.min.js" integrity="sha512-ocsFo48WU8Xq6Y1Lwi7psXRAujG9E4TKNR4q1DbrKzaaxOMTEoao/a+mDoB+cYzY4lwbyxvqjkp/ZA1/MNlfsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/plugins/BezierPlugin.min.js" integrity="sha512-plyexAULVlTExvDn2yUZFJV9F8q+53MC/GpU9dEuNGXmrrI3J8Rcffjvxg3OOBALBvF+UILPLIBEoCeF2maqTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/animation.gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js" integrity="sha512-hFyYiBIWCYSyo98oFGWjG5V8HEV4g5O2pxu0mzU8qIMC7lrrwtcKWoRDZcpRL0ywIIM2d/XsBJ9iXNLFf6kIgw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js" integrity="sha512-b3ujtnGapNU4CVHnbzXMfHFoTkrZE3D39PT6iGLsHm9MLG5VP57ZGKIsUI+zD88rf91APZ79m6t75WAJYnNobQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+      integrity="sha256-OUFW7hFO0/r5aEGTQOz9F/aXQOt+TwqI1Z4fbVvww04="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.1/js/swiper.min.js"
+      integrity="sha256-4sETKhh3aSyi6NRiA+qunPaTawqSMDQca/xLWu27Hg4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
