@@ -1,10 +1,10 @@
-# Basic HTML/CSS One Page Portfolio Template
+# Basic HTML/CSS/JS Multiple Page, Photographer's Web Application 
 
 ----
-## What is this portfolio template?
-The [portfolio template](https://redacademy.github.io/html-css-design-template/) is designed to practice and explore basic HTML and CSS.
+## What is this Website?
+The [Photographer's Web Application ](https://github.com/M1racle-Heen/new_Project.git) is designed for photographer John Doe, who wanted to introduce us to his professional photography.
+In this repository main page is [hello.html](https://github.com/M1racle-Heen/new_Project/blob/main/hello.html) in this page you can get to know our Services,great examples of nature photos taken by John Doe,comments of some clients,you can also contact us. In the footer you can find us on social media and contact information.
 
-The template is a guide meant for you to explore and change to ✨*make it your own*✨
 
 
 
