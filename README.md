@@ -9,28 +9,20 @@
 #### Page [Blog](https://github.com/M1racle-Heen/new_Project/blob/main/blog.html),on this page u can find some posts.
 ----
 ### Also i uploded this Web Application on internet u can find it [here](https://projectonheroku.herokuapp.com/hello.html).
-----
 
 ----
 ## So how do I use this?
 1. Download the files ⬇️
-2. Open in a text editor of your choice and change the place holder content to your hearts content 💛
+2. Open in a text editor of your choice
 
 
 ----
 ## helpful resources
 #### Images
-* [Unsplash](https://unsplash.com)
+* [Pixels](https://www.pexels.com/search/nature%20wallpaper/)
 
 #### Fonts
 * [Google Fonts](https://fonts.google.com/)
-
-#### Gradients
-* [Blend](http://colinkeany.com/blend/)
-* [UI Gradients](https://uigradients.com)
-
-#### Lorem Ipsum
-* [Cupcake ipsum](http://www.cupcakeipsum.com)
 
 #### CSS
 * [Mozilla Developer Network: Beginners Guide to CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS)
@@ -40,9 +32,5 @@
 * [Don't Fear the Internet](http://www.dontfeartheinternet.com/)
 
 
-
-
-
 ----
-## Created a masterpiece? 🎨 Share it!
-If so, please fork this repo and add a link to this README.md or create an issue with the github page link and to have it added to the README.md.
+
